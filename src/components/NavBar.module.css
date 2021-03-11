@@ -1,0 +1,81 @@
+/* =========
+layout /navBar
+========= */
+.header {
+  background: rgb(105, 72, 72);
+  padding: 2em 0;
+  text-align: center;
+  opacity: 0.8;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
+  padding: 0.25em 0;
+  margin-top: 25px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+}
+
+nav ul li:hover,
+nav ul li:focus {
+  color: #471616;
+}
+.navHeading img {
+  background: beige;
+  padding: 15px 15px 0 0;
+}
+
+@media (min-width: 675px) {
+  .container {
+    flex-direction: row;
+    background: beige;
+    padding: 0 25px;
+    border-radius: 7px;
+  }
+  nav .listContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .listItems {
+    padding: 10px;
+  }
+  nav li {
+    margin-left: 2em;
+  }
+}
+
+/* ==================
+Typography
+============== */
+.navHeading {
+  font-family: "Kavivanar", cursive;
+  font-size: 2.5em;
+  margin: 15px 0 0 0;
+}
+.titleBlurb {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  margin: 0 0 15px 0;
+}

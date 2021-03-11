@@ -1,0 +1,44 @@
+.container {
+  background-color: beige;
+}
+.imageContainer {
+    min-height: 50vh;
+}
+.homeTitle {
+  margin-top: 0;
+  padding-top: 1.25em;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(133, 63, 23);
+  font-family: 'Luckiest Guy', cursive;
+}
+.spanTitle {
+  font-family: "Kavivanar", cursive;
+}
+.homeBlurb {
+  font-weight: 700;
+  color: rgb(231, 218, 202);
+  font-size: 3em;
+  /* padding-top:7em; */
+  text-align: center;
+  font-family: "Shippori Mincho B1", serif;
+}
+.specialize {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(241, 121, 65);
+  padding-top: 9em;
+  font-variant: small-caps;
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 2rem;
+}
+@media (max-width: 675px) {
+  .homeBlurb {
+    color: rgb(226, 159, 71);
+    font-size: 1.5em;
+    padding-top:2em;
+  }
+  .specialize {
+    max-width: 500px;
+  }
+}
