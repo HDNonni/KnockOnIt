@@ -1,0 +1,42 @@
+.gridTitle{
+    font-family: "Luckiest Guy", cursive;
+    margin:0 auto;
+    font-size: 3.5rem;
+    color:rgb(133, 63, 23);
+    background-color: beige;
+    text-align: center;
+    padding:1em 0;
+
+}
+.container{
+    display: flex;
+    margin:0 auto;
+    margin-top:1em;
+    background-color: beige;
+    width: 100%;
+    border-top:1px solid brown;
+}
+.gridContainer{
+    /* display: grid; */
+    margin:0 auto;
+    max-width: 800px;
+    
+    align-items: center;
+    justify-content: center;
+    /* grid-template-rows: repeat(4, 5vw); */
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-gap:1em; */
+   
+}
+
+.gridItem{
+    background-color:lightblue;
+    border:1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gridItem img{
+    
+}
