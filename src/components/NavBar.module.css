@@ -6,10 +6,15 @@ layout /navBar
   padding: 2em 0;
   text-align: center;
   opacity: 0.8;
+  width:100%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 .container {
   width: 90%;
-  max-width: 900px;
+  /* max-width: 1000px; */
   margin: 0 auto;
   background: beige;
   display: flex;
@@ -61,6 +66,16 @@ nav ul li:focus {
   .listItems {
     padding: 10px;
   }
+  .listItems a{
+    color:rgb(146, 39, 39);
+    text-decoration: none;
+  }
+  .listItems a:hover, .listItems a:focus{
+    color:rgb(90, 25, 25);
+  }
+  .listItems a:active {
+    text-decoration: underline;
+   }
   nav li {
     margin-left: 2em;
   }

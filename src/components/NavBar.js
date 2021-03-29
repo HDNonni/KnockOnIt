@@ -21,9 +21,9 @@ function NavBar() {
           </div>
           <nav className={styles.navContainer}>
             <ul className={styles.listContainer}>
-              <li className={styles.listItems}>Home</li>
-              <li className={styles.listItems}>Projects</li>
-              <li className={styles.listItems}>About</li>
+              <li className={styles.listItems}>< a href = "#Home">Home</a></li>
+              <li className={styles.listItems}><a href = "#Projects">Projects</a></li>
+              <li className={styles.listItems}><a href = "#About">About</a></li>
             </ul>
           </nav>
         </div>

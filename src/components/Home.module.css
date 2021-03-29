@@ -1,37 +1,64 @@
-.container {
+/* .container {
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+.sideContainer {
+  display: flex;
+  flex-direction: column;
+}*/
+.container{
+  /* box-sizing: border-box; */
+  /* padding-left: 3em 4em;
+  background: white;
+  height: 100vh;
+  width: 60%; */
+  /* position: relative; */
 }
 .imageContainer {
   min-height: 50vh;
 }
 .homeTitle {
-  margin-top: 0;
-  padding-top: 1.25em;
+  margin: 0;
+  padding: 4em 0 1em 0;
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   color: rgb(133, 63, 23);
   font-family: "Luckiest Guy", cursive;
+  background-color: beige;
+  
+   
 }
 .spanTitle {
   font-family: "Kavivanar", cursive;
 }
 .homeBlurb {
+  margin:0;
   font-weight: 700;
-  color: rgb(231, 218, 202);
+  color: rgb(240, 234, 228);
   font-size: 3em;
-  /* padding-top:7em; */
+  padding-top:.5em;
   text-align: center;
   font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 0;
+  line-height: 1em;
+  /* position: relative; */
+  z-index: 0;
 }
 .specialize {
   font-weight: 700;
   text-align: center;
-  color: rgb(241, 121, 65);
+  color: rgb(246, 106, 40);
   padding-top: 9em;
   font-variant: small-caps;
   font-family: "Shippori Mincho B1", serif;
   font-size: 2rem;
-  margin:0;
+  margin: 0;
+  margin-top: 2em;
+ 
+  line-height: 1.3em;
+  /* position: relative; */
+  z-index: 0;
 }
 @media (max-width: 675px) {
   .homeBlurb {

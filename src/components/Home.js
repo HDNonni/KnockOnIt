@@ -5,15 +5,16 @@ import crochetBowl2 from "../assets/images/crochet-bowl2-blur.jpg";
 function HomePage() {
   return (
     <div>
+      <h1 className = "sticky"></h1>
+      <h1 className={styles.homeTitle} id = "Home">
+        Welcome to <span className={styles.spanTitle}> @ Knock On It!</span>
+      </h1>
       <div className={styles.container}>
-        <h1 className={styles.homeTitle}>
-          Welcome to <span className={styles.spanTitle}> @ Knock On It!</span>
-        </h1>
         <div
           className={styles.imageContainer}
           style={{
             backgroundImage: `url(${crochetBowl2})`,
-            backgroundPosition: "center",
+            backgroundPosition: "center top",
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
           }}

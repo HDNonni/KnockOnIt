@@ -5,7 +5,7 @@ import jsonImages from "../assets/images/jsonImages/images.json";
 function Projects() {
   const images = jsonImages.images;
   console.log(jsonImages.images);
-  const numbers = [1, 2, 3, 4, 5];
+  
   const listItems = images.map((image) => (
     <div>
       <div className={styles.gridItem}>
@@ -17,7 +17,7 @@ function Projects() {
   return (
     <div>
       <div>
-        <h1 className={styles.gridTitle}> Custom Projects</h1>
+        <h1 className={styles.gridTitle} id = "Projects"> Custom Projects</h1>
       </div>
       <div className={styles.container}>
         <div className={styles.gridContainer}>{listItems}</div>
