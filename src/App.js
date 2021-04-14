@@ -2,6 +2,8 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import HomePage from "./components/Home";
 import Projects from "./components/Projects";
+import About from "./components/About";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <NavBar />
       <HomePage />
       <Projects />
+      <About />
+      <Footer />
     </div>
   );
 }

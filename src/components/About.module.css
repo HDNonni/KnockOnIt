@@ -1,0 +1,63 @@
+.aboutContainer{
+    display:flex;
+    flex-direction: column;
+  
+}
+.aboutHeading{
+    font-size:3em;
+    font-family: "Kavivanar", cursive;
+    color:rgb(102, 13, 13);
+    text-align: center;
+}
+.pinewood{
+    border-radius:5px;
+    box-shadow: 8px 8px 5px rgb(175, 172, 172);
+    margin-left:4em;
+}
+.sawImage{
+    border-radius:5px;
+    box-shadow: 8px 8px 5px rgb(175, 172, 172);
+    margin-left:4em;
+}
+.aboutSection{
+    
+    align-items: center;
+}
+p{
+    font-size:1.5em;
+    line-height: 1;
+    font-family: "Kavivanar", cursive;
+    font-weight:bold;
+    margin:0;
+    padding:.25em 1em;
+}
+
+
+@media(min-width:800px){
+    .aboutContainer{
+        height:38rem;
+    }
+    .aboutSection{
+        padding-left:1em;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    /* .flexContainer{
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-end;
+    } */
+    .sawImage{
+        border-radius:5px;
+        box-shadow: 8px 8px 5px rgb(175, 172, 172);
+        margin-left:0;
+
+    }
+    .saw{
+        text-align: right;
+        margin-bottom:1em;
+        overflow: hidden;
+    }
+
+}

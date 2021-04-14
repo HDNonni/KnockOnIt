@@ -13,7 +13,9 @@ function HomePage() {
         <div
           className={styles.imageContainer}
           style={{
+            backgroundColor:"#303030",
             backgroundImage: `url(${crochetBowl2})`,
+            backgroundBlendMode:"soft-light",
             backgroundPosition: "center top",
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
