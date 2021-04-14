@@ -5,7 +5,7 @@ import crochetBowl2 from "../assets/images/crochet-bowl2-blur.jpg";
 function HomePage() {
   return (
     <div>
-      <h1 className = "sticky"></h1>
+      
       <h1 className={styles.homeTitle} id = "Home">
         Welcome to <span className={styles.spanTitle}> @ Knock On It!</span>
       </h1>

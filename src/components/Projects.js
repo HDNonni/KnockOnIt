@@ -9,7 +9,7 @@ function Projects() {
   const listItems = images.map((image) => (
     <div>
       <div className={styles.gridItem}>
-        <img src={"images/" + image.url}></img>
+        <img src={"images/" + image.url} alt= "url"></img>
       </div>
       <div className={styles.gridItem}>{image.description}</div>
     </div>
