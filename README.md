@@ -1,3 +1,7 @@
+used git hub actions to build and deploy the site to gh-pages
+    commit and push to master branch to trigger the action to run
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
