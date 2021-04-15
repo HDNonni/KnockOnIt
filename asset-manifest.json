@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/KnockOnIt/static/css/main.3aa0e074.chunk.css",
+    "main.js": "/KnockOnIt/static/js/main.31ac1ed3.chunk.js",
+    "main.js.map": "/KnockOnIt/static/js/main.31ac1ed3.chunk.js.map",
+    "runtime-main.js": "/KnockOnIt/static/js/runtime-main.6bf3eb2e.js",
+    "runtime-main.js.map": "/KnockOnIt/static/js/runtime-main.6bf3eb2e.js.map",
+    "static/js/2.62dfc4fe.chunk.js": "/KnockOnIt/static/js/2.62dfc4fe.chunk.js",
+    "static/js/2.62dfc4fe.chunk.js.map": "/KnockOnIt/static/js/2.62dfc4fe.chunk.js.map",
+    "static/js/3.48e956bf.chunk.js": "/KnockOnIt/static/js/3.48e956bf.chunk.js",
+    "static/js/3.48e956bf.chunk.js.map": "/KnockOnIt/static/js/3.48e956bf.chunk.js.map",
+    "index.html": "/KnockOnIt/index.html",
+    "static/css/main.3aa0e074.chunk.css.map": "/KnockOnIt/static/css/main.3aa0e074.chunk.css.map",
+    "static/js/2.62dfc4fe.chunk.js.LICENSE.txt": "/KnockOnIt/static/js/2.62dfc4fe.chunk.js.LICENSE.txt",
+    "static/media/crochet-bowl2-blur.0bb77546.jpg": "/KnockOnIt/static/media/crochet-bowl2-blur.0bb77546.jpg",
+    "static/media/logo.317ba460.jpg": "/KnockOnIt/static/media/logo.317ba460.jpg",
+    "static/media/logo_watermark.0d74db74.jpg": "/KnockOnIt/static/media/logo_watermark.0d74db74.jpg",
+    "static/media/nelson_saw-scaled.42072155.jpg": "/KnockOnIt/static/media/nelson_saw-scaled.42072155.jpg",
+    "static/media/pinewoodDerby-scaled.79a9bb80.jpg": "/KnockOnIt/static/media/pinewoodDerby-scaled.79a9bb80.jpg",
+    "static/media/woodgrain.2219b2dc.jpg": "/KnockOnIt/static/media/woodgrain.2219b2dc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bf3eb2e.js",
+    "static/js/2.62dfc4fe.chunk.js",
+    "static/css/main.3aa0e074.chunk.css",
+    "static/js/main.31ac1ed3.chunk.js"
+  ]
+}
